@@ -31,7 +31,8 @@ public class CarroComprasService {
     @EJB
     private IServicioCarritoMockRemote carroEjb;
     /**
-     * Servicio que recibe un objeto JSON con un mueble que se desea agregar al carrito de compras. 
+     * Servicio que recibe un objeto JSON con un mueble que se desea agregar al carrito de compras. Este servicio es el que se va a probar en 
+     * JMeter. Ejecución sin problemas hasta los 5000 usuarios en 10 segundos.)
      *
      * @param mb Mueble en formato JSON, que automáticamente se parsea a un objeto Mueble por el API REST.
      */
