@@ -39,7 +39,7 @@ public class CatalogoService {
      */
     @GET
     @Path("muebles/")
-    public List<Mueble> getTodosLosCarritos() {
+    public List<Mueble> getTodosLosMuebles() {
         return catalogoEjb.darMuebles();
  
     }

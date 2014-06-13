@@ -6,9 +6,9 @@ function mainController($scope, $http) {
 	$scope.formData = {};
 
 	// Cuando se cargue la página, pide del API todos los TODOs
-	$http.get('/api/todos')
+	$http.get('../mueblesdelosalpes.servicios/webresources/Catalogo/muebles')
 		.success(function(data) {
-			$scope.todos = data;
+			$scope.items = data;
 			console.log(data)
 		})
 		.error(function(data) {
