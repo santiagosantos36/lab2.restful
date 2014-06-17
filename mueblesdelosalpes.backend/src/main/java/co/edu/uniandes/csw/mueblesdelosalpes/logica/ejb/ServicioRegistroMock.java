@@ -12,6 +12,7 @@
 
 package co.edu.uniandes.csw.mueblesdelosalpes.logica.ejb;
 
+import co.edu.uniandes.csw.mueblesdelosalpes.persistencia.mock.ServicioPersistenciaMock;
 import co.edu.uniandes.csw.mueblesdelosalpes.dto.Usuario;
 import co.edu.uniandes.csw.mueblesdelosalpes.excepciones.OperacionInvalidaException;
 import co.edu.uniandes.csw.mueblesdelosalpes.logica.interfaces.IServicioRegistroMockRemote;

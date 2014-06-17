@@ -10,7 +10,7 @@
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
-package co.edu.uniandes.csw.mueblesdelosalpes.logica.ejb;
+package co.edu.uniandes.csw.mueblesdelosalpes.persistencia.mock;
 
 
 import co.edu.uniandes.csw.mueblesdelosalpes.dto.ExperienciaVendedor;

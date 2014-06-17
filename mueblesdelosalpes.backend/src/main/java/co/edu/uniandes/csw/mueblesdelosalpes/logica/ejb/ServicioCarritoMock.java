@@ -12,6 +12,7 @@
 
 package co.edu.uniandes.csw.mueblesdelosalpes.logica.ejb;
 
+import co.edu.uniandes.csw.mueblesdelosalpes.persistencia.mock.ServicioPersistenciaMock;
 import co.edu.uniandes.csw.mueblesdelosalpes.dto.Mueble;
 import co.edu.uniandes.csw.mueblesdelosalpes.dto.RegistroVenta;
 import co.edu.uniandes.csw.mueblesdelosalpes.dto.Usuario;
